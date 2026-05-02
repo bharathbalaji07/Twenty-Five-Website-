@@ -1,0 +1,945 @@
+{
+  "products": [
+    {
+      "id": "cb946d44-4d01-46f7-87d4-06a12b3bf486",
+      "name": "French Fries",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - classic golden fries served hot and crisp.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "49c68f44-1a91-403d-aa41-123ee662cdde",
+      "name": "French Fries Salt & Pepper",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - fries tossed with salt, pepper, and light seasoning.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "3d17cb3c-9ce5-4cb5-97f2-53b58518695b",
+      "name": "Masala Fries",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - crispy fries coated with house masala.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "05d2edfc-2111-4f16-9447-923229805ee9",
+      "name": "Peri Peri French Fries",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - fries tossed in spicy peri peri seasoning.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "d0649e47-be61-4b46-a91c-4d9ffa5da690",
+      "name": "Smiley Potato",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - fun potato smiles fried until crunchy.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "6cf4dd7d-222f-4d28-8d2a-3491cc0ef81e",
+      "name": "Aloo Tikki",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - spiced potato patties with a crisp outside.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "9291b415-9309-46a5-88e4-72583f7037df",
+      "name": "Veg Nuggets",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - bite-sized vegetable nuggets.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "e693ecdf-fb67-43b1-9371-77cfd4a13c39",
+      "name": "Veg Finger",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - vegetable fingers fried golden.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "29bdf1cc-ff8e-4511-85ee-c7bc906a8bf5",
+      "name": "Veg Roll",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - soft roll filled with vegetables and sauces.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "a27083c5-752f-475d-96d3-178d66bd1978",
+      "name": "Paneer Roll",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - paneer roll with creamy spice filling.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "0a9e2d55-dee3-48d7-971d-2bc061c57a83",
+      "name": "Pizza Stick",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - cheesy snack sticks with pizza-style seasoning.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "dcdaf927-c0dd-413a-bb43-cc948c8ac755",
+      "name": "Cheese Corn Nuggets",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=900&q=80",
+      "description": "Veg - corn and cheese nuggets with a molten bite.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "27aa8b95-f09c-4125-bc54-91aeca0a8dde",
+      "name": "Sweet Corn",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=900&q=80",
+      "description": "Corn - steamed sweet corn with simple seasoning.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "a6e1df91-50d3-4ba8-9151-fa9746367bf6",
+      "name": "Masala Corn",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=900&q=80",
+      "description": "Corn - corn tossed with tangy masala.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "411f070c-5231-4b5b-9281-fa4d3e6b9140",
+      "name": "Pepper Corn",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=900&q=80",
+      "description": "Corn - corn finished with pepper and butter.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "5674e30d-d8fd-47d8-96ed-2917973b1fbe",
+      "name": "Cheese Corn",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=900&q=80",
+      "description": "Corn - sweet corn topped with cheese.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "92be80bc-89c4-4fbf-be69-88043e051cd7",
+      "name": "Crispy Fried Chicken",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - crunchy fried chicken pieces.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "7532bec5-4c39-45e0-bf28-f0b69cd56542",
+      "name": "Chicken Popcorn",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - small crispy chicken bites.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "5a132aec-52c4-473a-8faa-5fba7c1c6cd1",
+      "name": "Chicken Nuggets",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - classic chicken nuggets.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "30a4e8f3-6a9a-4b7a-86bf-278d43a8c4c5",
+      "name": "Chicken Finger",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - fried chicken fingers with seasoning.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "8241e683-a122-49bf-bfe7-52bee1c7512b",
+      "name": "Chicken Bites",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - juicy chicken bites with a crisp coating.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "c6a65cfa-6b8f-4e29-a5b1-0d442fdd2140",
+      "name": "Chicken Strips",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - seasoned fried chicken strips.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "900065ec-be31-4a53-8428-e0c7c5134534",
+      "name": "Chicken Roll",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - chicken roll with sauces and crunchy filling.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "357ff6dc-177c-4c7d-8b62-c672a6ac3f4c",
+      "name": "Chicken Wings",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - fried chicken wings with house spice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "2bb546aa-0c0c-472e-b461-f1b3efb310bd",
+      "name": "Fish Finger",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - crumb-fried fish fingers.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "c5ef4061-4e8f-4c21-89f9-459259dd63bf",
+      "name": "Crab Lollypop",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - crispy crab snack served lollypop style.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "a96ea2fc-d2ce-4695-a046-1afa2fcbc48e",
+      "name": "Breaded Prawn",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Non Veg - breaded prawns fried crisp.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "e5e86704-9f71-4030-bf31-38184e1949d8",
+      "name": "Veg Mixed Sandwich",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=80",
+      "description": "Sandwich - mixed vegetable sandwich.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "b0769bf9-c9d4-4032-925b-836b2d2662ea",
+      "name": "Paneer Mixed Sandwich",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=80",
+      "description": "Sandwich - paneer sandwich with vegetables.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "f09df521-3d8f-484e-b30c-19d66d61d172",
+      "name": "Egg Mixed Sandwich",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=80",
+      "description": "Sandwich - egg sandwich with mixed filling.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "867741fb-111b-424e-977f-7e755dbdd483",
+      "name": "Chicken Mixed Sandwich",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=80",
+      "description": "Sandwich - chicken sandwich with creamy filling.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "3f557097-adda-40bf-b462-937af5bf41f7",
+      "name": "Veg Burger",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+      "description": "Burger - vegetable patty burger with sauces.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "f4fd196c-63cc-4ddd-9ed5-24e94006e376",
+      "name": "Paneer Burger",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+      "description": "Burger - paneer burger with fresh vegetables.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "9d65c469-2f3d-484b-a6b2-e6d8e1c72fdb",
+      "name": "Chicken Patty Burger",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+      "description": "Burger - chicken patty burger.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "d7ecb058-5565-41b1-ae53-b72f6901d2c9",
+      "name": "Crispy Fried Chicken Burger",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+      "description": "Burger - crispy fried chicken burger.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "c3f6e9ff-5030-440c-b6a5-e8b9db01b6cf",
+      "name": "Veg Mix Pizza",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "description": "Pizza - vegetable mix pizza with cheese.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "efc7b15a-bff6-445b-9dc8-06e97c113a22",
+      "name": "Paneer Mix Pizza",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "description": "Pizza - paneer pizza with mixed toppings.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "5d33c43b-4e5f-4628-ba29-f9e978a45ec2",
+      "name": "Chicken Mix Pizza",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "description": "Pizza - chicken pizza with mixed toppings.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "dffb5d19-ca09-4e4d-95f7-53aab9f02d3d",
+      "name": "Cheese Mix Pizza",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "description": "Pizza - extra cheesy mixed pizza.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "38547d9d-1609-4984-a65d-a72e6cc5b7fa",
+      "name": "Fish Mix Pizza",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "description": "Pizza - fish topping pizza with cheese.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "d8eef093-3fd9-4fc7-a320-32611c8fc5b2",
+      "name": "Kamuru Cocktail",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "description": "Cocktail - signature house cocktail.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "13576001-b3a8-44f2-9e90-4a3869a3ffb3",
+      "name": "Chocolate Falooda",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80",
+      "description": "Falooda - falooda with chocolate flavor.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "96c853bd-3c3a-439f-935e-c9b1d8cc8fd4",
+      "name": "Vanilla Falooda",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80",
+      "description": "Falooda - falooda with vanilla flavor.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "30e3101e-a6e6-48f4-9f33-558bd1a8abc6",
+      "name": "Butter Scotch Falooda",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80",
+      "description": "Falooda - falooda with butterscotch flavor.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "c657af79-af8b-42fe-ad14-7f52fc83ec64",
+      "name": "Strawberry Falooda",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80",
+      "description": "Falooda - falooda with strawberry flavor.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "c2990701-1834-4a96-9cd8-8c674f18e2ff",
+      "name": "Pista Falooda",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80",
+      "description": "Falooda - falooda with pista flavor.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "54246eb4-5da2-4d6c-8b6e-042a7cc45df6",
+      "name": "Veg Momos",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Momos - steamed and fried momo plate.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "39d0d1cb-815e-45b4-a58e-95cf01cfcae2",
+      "name": "Paneer Momos",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Momos - paneer momo plate.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "5c0ec251-b55d-4189-a21b-85390b321d38",
+      "name": "Cheese Corn Momos",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Momos - cheese corn momo plate.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "fd3eddf0-6aa4-47ef-a180-cb30fb08fb77",
+      "name": "Chicken Momos",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Momos - chicken momo plate.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "40006084-527b-4951-8441-d05062d1833e",
+      "name": "Bread Omelet",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Bread Omelets - bread served with omelet.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "eed3c775-7739-4fe1-a0fa-13da31fea6e3",
+      "name": "Vegetable Mix Bread Omelet",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Bread Omelets - bread omelet with vegetable mix.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "d54a2522-eab1-46b6-a97f-534f9689572b",
+      "name": "Cheese Bread Omelet",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Bread Omelets - cheese-filled bread omelet.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "5f0dc326-7ff7-4ca2-80bd-df3032145f79",
+      "name": "Chicken Omelet",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Bread Omelets - omelet with chicken filling.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "45ff5d16-0a26-4faa-bf20-570b8cd0a3eb",
+      "name": "Cheese Chicken Bread Omelet",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+      "description": "Bread Omelets - cheese chicken bread omelet.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "ee6298f6-b6fe-411f-8f6f-1d2f2e2ff376",
+      "name": "Sweet & Salt Soda",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=80",
+      "description": "Soda - refreshing sweet and salty soda.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "051ac9cf-55fa-47e8-8bbf-f05ab4552279",
+      "name": "Nannari Soda",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=80",
+      "description": "Soda - nannari-flavored soda.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "8b0a62e4-b25e-493d-ac6c-ca08ab40f3ae",
+      "name": "Masala Soda",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=80",
+      "description": "Soda - spicy masala soda.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "0e36c9b1-1470-4272-9a99-99e2c1d76617",
+      "name": "Lemon Juice",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - fresh lemon juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "a9393bff-028a-4b45-b102-c7ca245d9e30",
+      "name": "Lemon Mint Juice",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - lemon juice with mint.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "d5abc7c7-9f04-4833-98d0-9594f140ba73",
+      "name": "Orange Juice",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - fresh orange juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "05bd93a5-7454-4d8b-ab73-e7f69dc8410c",
+      "name": "Musambi Juice",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - sweet lime juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "498d1e7b-1b2e-478c-b492-a0e102ba9408",
+      "name": "Beetroot Juice",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - fresh beetroot juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "f7c2c04c-c15d-4d6b-bea1-247c08fb2703",
+      "name": "Carrot Juice",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - fresh carrot juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "cd4bebc4-3a6f-43f0-aa3e-16cdc70a6a91",
+      "name": "Watermelon Juice",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - fresh watermelon juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "b4be2172-738b-442b-bc82-59ae3aa305f4",
+      "name": "Apple Juice",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - apple juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "11bb7e90-c303-4e26-a67e-7eada0986ac7",
+      "name": "Pomegranate Juice",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - pomegranate juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "2f24d804-ceef-4278-b711-8810731fc5bd",
+      "name": "ABC Juice",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - apple, beetroot, and carrot juice.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "2afe515b-3628-4e05-9789-0ab4a54df909",
+      "name": "Jigarthanda",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - classic chilled jigarthanda.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "160cf7e6-a940-4b2a-a445-3c2c6b208273",
+      "name": "Jigarthanda Special",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Juice - special chilled jigarthanda.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "9cf9f7a2-08ff-4312-af82-a641ad809a89",
+      "name": "Mint Mojito",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "description": "Mojito - mint-flavored mojito.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "f8881205-52e1-495f-ab47-622d5e97be45",
+      "name": "Blue Berry Mojito",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "description": "Mojito - blueberry mojito.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "4350e7dd-ed0f-471a-aa1e-f4bb37a0e567",
+      "name": "Blue Curacao Mojito",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "description": "Mojito - blue curacao mojito.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "a04d7ddd-b835-4814-89e3-a7931250f6bf",
+      "name": "Green Apple Mojito",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "description": "Mojito - green apple mojito.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "7d13912f-be7e-47fc-b453-34076c42421e",
+      "name": "Pomegranate Mojito",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "description": "Mojito - pomegranate mojito.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "0ce9da0c-7210-4094-bdc7-53b4c8d00682",
+      "name": "Black Mojito",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "description": "Mojito - black mojito.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "04a81915-b702-4948-bb91-53ed7424efc9",
+      "name": "Creamy Rose Milk",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy Milks - creamy rose milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "aae9a75a-c2e7-4800-a167-647bda70d2df",
+      "name": "Creamy Mango Milk",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy Milks - creamy mango milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "f9c1d5cb-b50c-402e-8cc9-9f66a3959af9",
+      "name": "Creamy Badam Milk",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy Milks - creamy badam milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "ceb0618b-aade-469a-b9b8-2a47876ee7fa",
+      "name": "Creamy Vanilla Milk",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy Milks - creamy vanilla milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "13695756-9205-4a3b-b510-a9d6608f3948",
+      "name": "Creamy Strawberry Milk",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy Milks - creamy strawberry milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "fb4b75c5-0b4f-4c74-b904-5ce3f1cd15a4",
+      "name": "Creamy Butter Scotch Milk",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy Milks - creamy butterscotch milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "b6bcfc45-7279-4336-820b-1444fedbd551",
+      "name": "Creamy Pineapple Milk",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy Milks - creamy pineapple milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "84820318-8bc4-4193-a207-0931ae2ca8ab",
+      "name": "Mango Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - mango milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "f561c72a-47ea-4cff-941c-4d0c6e502b1a",
+      "name": "Rose Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - rose milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "6973ce6a-743f-4405-a7a1-6078377bc946",
+      "name": "Vanilla Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - vanilla milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "3ec10fa7-1282-412f-a5b0-caac952f8eb6",
+      "name": "Chocolate Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - chocolate milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "5fdb7fb4-a05e-4808-9832-3c6e59671858",
+      "name": "Butter Scotch Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - butterscotch milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "68d41324-24e7-4e84-8c52-faaee8b2c35b",
+      "name": "Oreo Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - oreo milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "164c1f6e-c805-497e-8b98-e6cee0451b56",
+      "name": "Blue Berry Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - blueberry milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "db3a12a0-b925-4e38-b35c-a2f1f8f005de",
+      "name": "Pista Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - pista milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "8eba259c-f219-4e2d-b90f-2f5a9d62a16c",
+      "name": "Litchi Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - litchi milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "ac4bf216-2d3e-4ccc-8a72-077db47b05e9",
+      "name": "Pineapple Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - pineapple milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "83b60fcc-f3a1-4ccf-8425-9fe449a9198e",
+      "name": "Badam Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - badam milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "9459aba3-4845-4b9c-afb9-2f83a8bd36af",
+      "name": "Strawberry Milk Shake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - strawberry milk shake.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "d983a046-6327-4d47-82b3-dd560faa8757",
+      "name": "Dryfruit Milk Smoothie",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80",
+      "description": "Milk Shake - dry fruit milk smoothie.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "0a88488e-fff9-4c32-ac3c-bc31de38eef7",
+      "name": "Vanilla Red Velvet Waffle with Chocolate Milk",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=900&q=80",
+      "description": "Waffles - vanilla or red velvet waffle with chocolate milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "e850a454-c8f3-43e4-809c-b66c05d2f39e",
+      "name": "Vanilla Red Velvet Waffle with White Chocolate Milk",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=900&q=80",
+      "description": "Waffles - vanilla or red velvet waffle with white chocolate milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "6e321bab-3d08-4d30-9792-02247dc2b18e",
+      "name": "Vanilla Red Velvet Waffle with Coffee Chocolate Milk",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=900&q=80",
+      "description": "Waffles - vanilla or red velvet waffle with coffee chocolate milk.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "c74644e6-73aa-45cc-811c-4fb17f0fd99c",
+      "name": "Crispy Fried Chicken Leg",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Crispy Fried Chicken - fried chicken leg.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    },
+    {
+      "id": "e0a0a281-b413-4e3a-abb8-4a19759b1542",
+      "name": "Crispy Fried Chicken Wings",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=900&q=80",
+      "description": "Crispy Fried Chicken - fried chicken wings.",
+      "createdAt": "2026-05-02T16:28:25.648Z",
+      "updatedAt": "2026-05-02T16:28:25.648Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "BF-20260502-0LHSU",
+      "customer": {
+        "name": "Bharath Balaji",
+        "phone": "8754607951",
+        "address": "Dharapuram,Tiruppur District,Tamil Nadu"
+      },
+      "items": [
+        {
+          "productId": "cb946d44-4d01-46f7-87d4-06a12b3bf486",
+          "name": "French Fries",
+          "price": 60,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "productId": "49c68f44-1a91-403d-aa41-123ee662cdde",
+          "name": "French Fries Salt & Pepper",
+          "price": 70,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      "paymentMethod": "cod",
+      "paymentStatus": "Confirmed",
+      "status": "Delivered",
+      "total": 130,
+      "createdAt": "2026-05-02T16:37:18.437Z",
+      "updatedAt": "2026-05-02T16:37:42.191Z"
+    }
+  ]
+}

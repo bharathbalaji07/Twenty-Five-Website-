@@ -1,0 +1,123 @@
+# Full-Stack Deployment Guide
+
+## 📁 Folder Structure - Quick Reference
+
+```
+Twenty-Five-Website-/
+├── backend/              ← Deploy to RENDER ✅
+├── frontend/             ← Deploy to VERCEL ✅
+└── node_modules/         ← DELETE/IGNORE ❌
+```
+
+**What to Deploy:**
+- **Render:** `backend/` folder only
+- **Vercel:** `frontend/` folder only
+- **Delete locally:** `node_modules/` (auto-generated on deployment)
+
+---
+
+## Recommended Tech Stack
+*   **Database:** MongoDB Atlas (Free) - Optional
+*   **Backend (Node.js/Express):** Render (Free)
+*   **Frontend (React/Vite):** Vercel (Free)
+
+---
+
+### Step 1: Set up the Database (MongoDB Atlas)
+1. Go to [MongoDB Atlas](https://www.mongodb.com/atlas) and create a free account.
+2. Build a **Free Cluster**.
+3. In **Database Access**, create a new database user and password. Save these credentials.
+4. In **Network Access**, add the IP address `0.0.0.0/0` (this allows connections from anywhere, which is required since Render IPs can change).
+5. Click **Connect**, choose **Drivers**, and copy your connection string (it looks like `mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority`).
+6. Replace `<password>` with the password you created in step 3. This is your `MONGODB_URI`.
+
+---
+
+### Step 2: Deploy Backend (Render)
+1. Push your entire repository to GitHub (✅ already done).
+2. Go to [Render](https://render.com) and create a free account.
+3. Click **New** -> **Web Service**.
+4. Connect your GitHub repository: `Twenty-Five-Website-`
+5. Configure the web service with these settings:
+    *   **Name:** `twenty-five-backend`
+    *   **Root Directory:** Leave empty (use entire repo)
+    *   **Environment:** Node
+    *   **Build Command:** `npm install && npm install --prefix backend`
+    *   **Start Command:** `npm start --prefix backend`
+6. Click **Advanced** and add the following **Environment Variables**:
+    *   `PORT`: `4000`
+    *   `NODE_ENV`: `production`
+    *   `JWT_SECRET`: *<Create a random secure string - min 32 chars>*
+    *   `ADMIN_EMAIL`: `admin@twentyfive.local`
+    *   `ADMIN_PASSWORD`: `admin12345`
+    *   `CLIENT_ORIGIN`: *(Leave blank for now - we'll update after frontend deploys)*
+    *   `MONGODB_URI`: *(Optional - leave blank to use JSON file storage)*
+7. Click **Create Web Service**. 
+8. ✅ Once deployed, copy your backend URL (e.g., `https://twenty-five-backend.onrender.com`)
+
+---
+
+### Step 3: Deploy Frontend (Vercel)
+1. Go to [Vercel](https://vercel.com) and log in with your GitHub account.
+2. Click **Add New** -> **Project**.
+3. Import the same GitHub repository: `Twenty-Five-Website-`
+4. Configure the project:
+    *   **Project Name:** `twenty-five-frontend` (or any name)
+    *   **Framework Preset:** React
+    *   **Root Directory:** `frontend` *(Click "Edit" to set this - IMPORTANT!)*
+    *   **Build Command:** `npm run build`
+    *   **Output Directory:** `dist`
+5. Open the **Environment Variables** section and add:
+    *   **Name:** `VITE_API_URL`
+    *   **Value:** `https://twenty-five-backend.onrender.com` *(Use your Render backend URL from Step 2)*
+6. Click **Deploy**.
+7. ✅ Once deployed, copy your Vercel URL (e.g., `https://twenty-five-frontend.vercel.app`).
+
+---
+
+### Step 4: Link Frontend and Backend (Final Step)
+1. Go back to Render and open your `twenty-five-backend` Web Service.
+2. Go to the **Environment** settings.
+3. Add or update the variable:
+    *   `CLIENT_ORIGIN`: *<Paste your Vercel URL from Step 3>*
+4. Click **Save Changes**. Render will automatically redeploy the backend to update CORS and allow requests from your frontend.
+
+### Done! 🎉
+Your full-stack application is now successfully deployed! 
+- Go to your Vercel URL to view the site.
+- Your frontend automatically knows how to connect to the backend API & WebSockets using the `VITE_API_URL` environment variable.
+- Your backend is connected to MongoDB (if configured) or uses JSON file storage.
+
+---
+
+## 🗑️ Clean Up Local Folders
+
+After deployment, you can optionally delete `node_modules` locally to save disk space:
+
+```powershell
+Remove-Item -Path node_modules -Recurse -Force
+```
+
+**Why?** 
+- ✅ Already committed to `.gitignore`
+- ✅ Auto-generated during deployment (Render/Vercel runs `npm install`)
+- ✅ Saves ~500MB+ of local disk space
+
+---
+
+## 🔗 Your Live URLs After Deployment
+
+Replace these placeholders:
+- **Backend API:** `https://your-backend-name.onrender.com`
+- **Frontend Website:** `https://your-app-name.vercel.app`
+- **Admin Dashboard:** `https://your-app-name.vercel.app/admin`
+
+---
+
+## ⚠️ Important Folders Summary
+
+| Folder | Goes To | Do This | Why |
+|--------|---------|---------|-----|
+| `backend/` | **Render** | Deploy | Node.js API server |
+| `frontend/` | **Vercel** | Deploy | React web app |
+| `node_modules/` | **Neither** | Delete locally | Auto-generated by npm |

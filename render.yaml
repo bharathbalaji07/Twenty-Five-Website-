@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: twenty-five-backend
+    runtime: node
+    buildCommand: npm install && npm install --prefix backend
+    startCommand: npm start --prefix backend
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: CLIENT_ORIGIN
+        value: https://your-vercel-app.vercel.app
+      - key: JWT_SECRET
+        value: replace-with-long-random-secret-key
+      - key: ADMIN_EMAIL
+        value: admin@twentyfive.local
+      - key: ADMIN_PASSWORD
+        value: admin12345
+      - key: NODE_ENV
+        value: production
